@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/leaves/:id",
+      "destination": "/api/leaves?id=:id"
+    },
+    {
+      "source": "/leaves",
+      "destination": "/api/leaves"
+    },
+    {
+      "source": "/api/leaves/:id",
+      "destination": "/api/leaves?id=:id"
+    },
+    {
+      "source": "/api/leaves",
+      "destination": "/api/leaves"
+    }
+  ]
+}

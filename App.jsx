@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/leaves";
+const API = "/leaves";
 
 function App() {
   const [leaves, setLeaves] = useState([]);
